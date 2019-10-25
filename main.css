@@ -1,0 +1,148 @@
+body {
+	width: 100vw;
+	text-align: center;
+	border: 1px solid black;
+}
+
+h1 {
+	font-size: 40px;
+	letter-spacing: 5px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #1b2538;
+}
+li {
+	float: left;
+	border-right: 1px solid #bbbbbb;
+}
+li:last-child {
+	border-right: none;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover:not(.active) {
+	background-color: #a9bce2;
+}
+
+#main {
+	width: 100vw;
+	height: 480px;
+}
+
+.button_sample {
+	display: inline;
+	background-color: #1b2538;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+h2 {
+	font-size: 35px;
+	letter-spacing: 5px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+p {
+	font-size: 35px;
+	letter-spacing: 5px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+/*--------------------------------------
+テキスト
+---------------------------------------*/
+
+.msr_text_04 {
+	padding-bottom: 20px;
+  width: 100%;
+}
+
+.msr_text_04 label {
+  display: block;
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+
+.msr_text_04 input[type=text] {
+	border: 5px solid #000000;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	color: #000000;
+	font-size: 13px;
+	padding: 10px;
+  width: 100%;
+}
+
+/*--------------------------------------
+テキストエリア
+---------------------------------------*/
+
+.msr_textarea_04 {
+  padding-bottom: 10px;
+  width: 100%;
+}
+.msr_textarea_04 label {
+  display: block;
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+.msr_textarea_04 textarea {
+  border: 5px solid #000000;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  color: #000000;
+  font-size: 13px;
+  padding: 10px;
+  height: 210px;
+  width: 100%;
+}
+
+
+.active {
+	background-color: #da3c41;
+}
+
+canvas {
+	width: 100vw;
+	height: 480px;
+	display: block;
+	border: solid 1px black;
+}
+
+span {
+	font-size: 20px;
+}
+
+#footer {
+	background-color: #1b2538;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+#footer_text {
+	color: #ffffff;
+}
+
+#title {
+	color: black;
+	font-size: 40px;
+	text-decoration: none;
+}
